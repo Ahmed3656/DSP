@@ -1,0 +1,51 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.eggs/
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Build / Packaging ----
+build/
+develop-eggs/
+dist/
+downloads/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ---- Logs / Temp ----
+*.log
+*.tmp
+*.temp
+
+# ---- IDE / Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Specific ----
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter / Notebooks (if you experiment) ----
+.ipynb_checkpoints
+
+# ---- Data / Cache (if your app processes signals into files) ----
+*.wav
+*.csv
+*.npy
+*.mat
+*.h5
+.cache/
